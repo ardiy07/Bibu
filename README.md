@@ -1,5 +1,5 @@
 Clone Projek BiBu
-1. git clone https://github.com/Ardiy01/bibu.git
+1. git clone https://github.com/ardiy07/bibu.git
 2. composer install
 3. cp .env.example .env
 4. php artisan config:cache
