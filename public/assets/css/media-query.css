@@ -1,0 +1,103 @@
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+
+  .iconify{
+    color: #007C84;
+  }
+
+  header{
+    margin-top: -16px;
+    border-radius: 0px;
+  }
+
+  header .navbar-brand{
+    visibility: visible;
+  }
+  
+  header .person{
+    border-radius: 0px;
+  }
+
+  .drp-header{
+    display: unset;
+  }
+
+  .person{
+    display: none;
+  }
+  
+  h6.psn-produk{
+    display: none;
+  }
+
+  .nm-produk{
+    margin: auto;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+  .almt{
+    text-align: end;
+  }
+
+  #btn-update{
+    margin-left: 0rem !important;
+  }
+
+  .search{
+    width: 100% !important;
+  }
+
+  .input-src-date{
+    width: 100% !important;
+  }
+
+  .btn-src-date{
+    margin-left: 0rem !important;
+  }
+
+  .ulasan{
+    overflow: visible;
+  }
+
+  .ulasan::before{
+    content: none;
+  }
+
+
+
+  .sty-ulasan{
+    max-height: 100%;
+    min-height: 20px;
+    overflow: hidden;
+    /* margin-top: -20px; */
+    font-size:smaller;
+  }
+
+  .sty-ulasan .nama{
+    font-size: 12px
+  }
+
+  .sty-ulasan .img-user{
+    display: none;
+  }
+
+  .sty-ulasan .tgl{
+    font-size: xx-small;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
